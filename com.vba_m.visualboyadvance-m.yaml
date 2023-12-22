@@ -13,7 +13,7 @@ finish-args:
   - --socket=fallback-x11
   - --socket=wayland
   - --socket=pulseaudio
-  - --filesystem=host:ro
+  - --filesystem=host:rw
 
 cleanup:
   - /lib/cmake
