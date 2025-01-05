@@ -1,0 +1,49 @@
+From a0a5dea1a0f6e66d97e2afc6af222ca0595f59df Mon Sep 17 00:00:00 2001
+From: Zach Bacon <zachbacon@vba-m.com>
+Date: Wed, 20 Dec 2023 22:45:44 -0500
+Subject: [PATCH] visualboyadvance-m.metainfo.xml: fix for flatpak usage
+
+Signed-off-by: Zach Bacon <zachbacon@vba-m.com>
+---
+ src/wx/visualboyadvance-m.metainfo.xml | 19 +++++++++++++++----
+ 1 file changed, 15 insertions(+), 4 deletions(-)
+
+diff --git a/src/wx/visualboyadvance-m.metainfo.xml b/src/wx/visualboyadvance-m.metainfo.xml
+index 0e5cd45..0009f83 100644
+--- a/src/wx/visualboyadvance-m.metainfo.xml
++++ b/src/wx/visualboyadvance-m.metainfo.xml
+@@ -1,8 +1,10 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+-<component type="desktop">
+- <id>visualboyadvance-m.desktop</id>
++<application>
++ <id type="desktop">visualboyadvance-m.desktop</id>
++ <developer_name>VisualBoyAdvance-M</developer_name>
+  <metadata_license>CC-BY-SA-3.0</metadata_license>
+  <project_license>GPL-2.0</project_license>
++ <content_rating type="oars-1.1"/>
+  <name>VisualBoyAdvance-M</name>
+  <summary>VisualBoyAdvance-M, a high compatibility Gameboy Advance Emulator</summary>
+  <description>
+@@ -15,7 +17,16 @@
+     forks.
+   </p>
+  </description>
++ <screenshots>
++  <screenshot type="default">https://vba-m.com/screenshots/1.png</screenshot>
++  <screenshot>https://vba-m.com/screenshots/2.png</screenshot>
++  <screenshot>https://vba-m.com/screenshots/3.png</screenshot>
++  <screenshot>https://vba-m.com/screenshots/4.png</screenshot>
++ </screenshots>
++ <releases>
++   <release version="2.1.8" date="2023-12-14"/>
++ </releases>
+  <url type="homepage">http://vba-m.com/</url>
+  <url type="bugtracker">https://github.com/visualboyadvance-m/visualboyadvance-m/issues</url>
+- <update_contact>zachbacon_at_vba-m.com</update_contact>
+-</component>
++ <updatecontact>zachbacon@vba-m.com</updatecontact>
++</application>
+-- 
+2.39.2
+
