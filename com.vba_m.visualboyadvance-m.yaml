@@ -42,8 +42,8 @@ modules:
       - --with-gtk=3
     sources:
       - type: git
-        commit: 085a136dcb11aca5b1102193f006f8056d5f0876
-        tag: v3.2.4
+        commit: d74ef99edca34d5b44b74875fcdf97cc236feb75
+        tag: v3.2.7
         url: https://github.com/wxWidgets/wxWidgets
         x-checker-data:
           is-important: true
@@ -60,8 +60,8 @@ modules:
       - -DSFML_BUILD_AUDIO=FALSE
     sources:
       - type: archive
-        url: https://www.sfml-dev.org/files/SFML-2.6.1-sources.zip
-        sha256: 5bf19e5c303516987f7f54d4ff1b208a0f9352ffa1cd55f992527016de0e8cb7
+        url: https://www.sfml-dev.org/files/SFML-3.0.0-sources.zip
+        sha256: 8cc41db46b59f07c44ecf21c74a0f956d37735dec9d90ff4522856cb162ba642
         x-checker-data:
           type: anitya
           project-id: 12315
