@@ -41,8 +41,8 @@ modules:
       - --with-gtk=3
     sources:
       - type: git
-        commit: 5ff25322553c1870cf20a2e1ba6f20ed50d9fe9a
-        tag: v3.2.6
+        commit: 8aef5f40b93958719771331ca03866b7b6fff6bf
+        tag: v3.2.8
         url: https://github.com/wxWidgets/wxWidgets.git
         x-checker-data:
           type: git
@@ -58,12 +58,12 @@ modules:
       - -DSFML_BUILD_AUDIO=FALSE
     sources:
       - type: archive
-        url: https://www.sfml-dev.org/files/SFML-3.0.0-sources.zip
-        sha256: 8cc41db46b59f07c44ecf21c74a0f956d37735dec9d90ff4522856cb162ba642
+        url: https://github.com/SFML/SFML/archive/refs/tags/3.0.1.tar.gz
+        sha256: f99f71bb2f2608835b1a37e078512b75dd39d52b89e13e12246603a950da3c1f
         x-checker-data:
           type: anitya
           project-id: 12315
-          url-template: https://www.sfml-dev.org/files/SFML-$version-sources.zip
+          url-template: https://github.com/SFML/SFML/archive/refs/tags/$version.tar.gz
 
   - name: visualboyadvance-m
     builddir: true
