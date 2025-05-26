@@ -63,7 +63,7 @@ modules:
         x-checker-data:
           type: anitya
           project-id: 12315
-          url-template: https://github.com/SFML/SFML/archive/refs/tags/$version.tar.gz
+          url-template: https://www.sfml-dev.org/files/SFML-$version-sources.zip
 
   - name: visualboyadvance-m
     builddir: true
