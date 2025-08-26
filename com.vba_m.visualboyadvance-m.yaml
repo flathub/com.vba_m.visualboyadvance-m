@@ -1,6 +1,6 @@
 app-id: com.vba_m.visualboyadvance-m
 runtime: org.freedesktop.Platform
-runtime-version: '23.08'
+runtime-version: '24.08'
 sdk: org.freedesktop.Sdk
 command: visualboyadvance-m
 rename-icon: visualboyadvance-m
@@ -42,8 +42,7 @@ modules:
       - --with-gtk=3
     sources:
       - type: git
-        commit: 085a136dcb11aca5b1102193f006f8056d5f0876
-        tag: v3.2.4
+        tag: v3.3.1
         url: https://github.com/wxWidgets/wxWidgets
         x-checker-data:
           is-important: true
@@ -74,7 +73,5 @@ modules:
       - -DCMAKE_BUILD_TYPE=RelWithDebInfo
     sources:
       - type: archive
-        url: https://github.com/visualboyadvance-m/visualboyadvance-m/archive/refs/tags/v2.1.8.tar.gz
-        sha256: 3754f691e092522e5c1ff9e45c46f10c85d3cd1dc73165068efd29858d910573
-      - type: patch
-        path: metainfo.patch
+        url: https://github.com/visualboyadvance-m/visualboyadvance-m/archive/refs/tags/v2.2.2.tar.gz
+        sha256: f135f1c78bd2c2e49bd0d40440f0d856b6ab7a13a2ad76e4b8f85283a5e3743e

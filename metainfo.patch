@@ -36,7 +36,7 @@ index 0e5cd45..0009f83 100644
 +  <screenshot>https://vba-m.com/screenshots/4.png</screenshot>
 + </screenshots>
 + <releases>
-+   <release version="2.1.8" date="2023-12-14"/>
++   <release version="2.2.2" date="2025-06-30"/>
 + </releases>
   <url type="homepage">http://vba-m.com/</url>
   <url type="bugtracker">https://github.com/visualboyadvance-m/visualboyadvance-m/issues</url>
