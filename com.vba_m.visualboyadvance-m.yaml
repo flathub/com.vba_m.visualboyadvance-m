@@ -1,6 +1,6 @@
 app-id: com.vba_m.visualboyadvance-m
 runtime: org.freedesktop.Platform
-runtime-version: '23.08'
+runtime-version: '25.08'
 sdk: org.freedesktop.Sdk
 command: visualboyadvance-m
 rename-icon: visualboyadvance-m
@@ -42,8 +42,8 @@ modules:
       - --with-gtk=3
     sources:
       - type: git
-        commit: 085a136dcb11aca5b1102193f006f8056d5f0876
-        tag: v3.2.4
+        commit: 49c6810948f40c457e3d0848b9111627b5b61de5
+        tag: v3.3.1
         url: https://github.com/wxWidgets/wxWidgets
         x-checker-data:
           is-important: true
@@ -60,8 +60,8 @@ modules:
       - -DSFML_BUILD_AUDIO=FALSE
     sources:
       - type: archive
-        url: https://www.sfml-dev.org/files/SFML-2.6.1-sources.zip
-        sha256: 5bf19e5c303516987f7f54d4ff1b208a0f9352ffa1cd55f992527016de0e8cb7
+        url: https://www.sfml-dev.org/files/SFML-3.0.2-sources.zip
+        sha256: 3c8467414cf634c32419973b22faefcb8b30002f908b77fb658692e9a580a907
         x-checker-data:
           type: anitya
           project-id: 12315
@@ -74,7 +74,7 @@ modules:
       - -DCMAKE_BUILD_TYPE=RelWithDebInfo
     sources:
       - type: archive
-        url: https://github.com/visualboyadvance-m/visualboyadvance-m/archive/refs/tags/v2.1.8.tar.gz
-        sha256: 3754f691e092522e5c1ff9e45c46f10c85d3cd1dc73165068efd29858d910573
+        url: https://github.com/visualboyadvance-m/visualboyadvance-m/archive/refs/tags/v2.2.2.tar.gz
+        sha256: f135f1c78bd2c2e49bd0d40440f0d856b6ab7a13a2ad76e4b8f85283a5e3743e
       - type: patch
         path: metainfo.patch
