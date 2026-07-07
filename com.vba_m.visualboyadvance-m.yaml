@@ -42,8 +42,8 @@ modules:
       - --with-gtk=3
     sources:
       - type: git
-        commit: 49c6810948f40c457e3d0848b9111627b5b61de5
-        tag: v3.3.1
+        commit: 565553ee980e925bbd8b3cdaeea0eb9f453d7dfd
+        tag: v3.3.3.1
         url: https://github.com/wxWidgets/wxWidgets
         x-checker-data:
           is-important: true
